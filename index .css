@@ -7,9 +7,17 @@ font-size: 30px;
 text-align: center;
 width: 400px;
 margin-bottom: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
 width: 400px;
 margin: 0 auto;
+font-family: sans-serif;
+}
+
+a {
+text-decoration: none;
+color: rebeccapurple;
 
 }
+

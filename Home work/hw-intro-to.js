@@ -1,29 +1,30 @@
 // Task #2
-console.log('Kozhakin');
+alert('Kozhakin');
 // Task #3
-let customColor = "red";
-let globalColor = "green";
-console.log(customColor, globalColor);
+let customColor = "blue";
+let globalColor = "sky";
+console.log(customColor + " " + globalColor);
 
-customColor = "green";
-globalColor = "red";
-console.log(customColor, globalColor);
+
+globalColor = customColor
+globalColor = "gray";
+console.log(customColor + " " + globalColor);
+
+
 
 
 // Task #4
-let nameData = "Text";
-let numberData = 44;
-let comparisonData = 44 <= 49;
-let comparisonNumber = 44 >= 50;
 let unknownData;
-let emptyData = null;
-console.log(nameData);
-console.log(numberData);
-console.log(comparisonData);
-console.log(comparisonNumber);
-console.log(unknownData);
-console.log(emptyData);
+const objOfVaules = {
+    nameData: "Text",
+    numberData: 44,
+    comparisonData: 44 <= 49,
+    comparisonNumber: 44 >= 50,
+    unknownData,
+    emptyData: null,
 
+}
+console.log(objOfVaules);
 
 
 //  Task #5
